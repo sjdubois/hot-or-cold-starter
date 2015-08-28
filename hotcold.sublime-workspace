@@ -1,0 +1,314 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 1112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2036,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Advanced Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/bch453/moodle/concept-map.html",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp-template-files/custom/why-burn/why-burn.html",
+		"/Applications/MAMP/htdocs/SE/index.html",
+		"/Applications/MAMP/htdocs/SE/js/test.js",
+		"/Applications/MAMP/htdocs/SE/js/chart.min.js",
+		"/Applications/MAMP/htdocs/SE/js/charts.js",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[BC] DELTA Annual Report FY1314 [Jan 15]/annual-report2014-1.06.15/index.php",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[BC] DELTA Annual Report FY1314 [Jan 15]/annual-report2014-1.06.15/css/annualreport.css",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] BCH 453:553 Interactive Online Materials [Hemenway] [SPR 15]/web2/index.html",
+		"/Users/sjdubois2/Library/Application Support/Sublime Text 2/Packages/User/SublimeServer.sublime-settings",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp-template-files/custom/css/custom-style.css",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/why-burn/why-burn.html",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/case-studies/case-studies-landing.html",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/resources.html",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/frontpage-efire.html",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/case-studies/lighterwood-farms.html",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/case-studies/rose-hill.html",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/case-studies/schenk-forest.html",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/planning/planning.html",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/custom-sub-title.php",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/case-studies/case-studies-detail.html",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/take-action.html",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/page-frontpage.php",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[CD] eFIRE Electronic Science Based Field Tour [Gharis] [SUM 15]/wp/custom/css/TO-custom-styles.css",
+		"/Users/sjdubois2/Desktop/projects/streetfighter-starter/css/main.css",
+		"/Users/sjdubois2/Desktop/projects/streetfighter-starter/streetfigher.sublime-project",
+		"/Users/sjdubois2/Desktop/projects/streetfighter-starter/main2.html",
+		"/Users/sjdubois2/Desktop/projects/startup-landing-page-clone/startup.sublime-project",
+		"/Users/sjdubois2/Desktop/projects/startup-landing-page-clone/index.html",
+		"/Users/sjdubois2/Desktop/projects/startup-landing-page-clone/css/styles.css",
+		"/Users/sjdubois2/Desktop/projects/startup-landing-page-clone/updates.html",
+		"/Users/sjdubois2/Desktop/projects/startup-landing-page-clone/test.html",
+		"/Users/sjdubois2/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Applications/MAMP/htdocs/thinkful/landing-page/index.html",
+		"/Applications/MAMP/htdocs/delta-grants/index.html",
+		"/Applications/MAMP/htdocs/delta-grants/original.html",
+		"/Applications/MAMP/htdocs/delta-grants/styles.css",
+		"/Users/sjdubois2/Documents/DELTA_PROJECTS/[BC] Delta Grants Campaign [Spring 2015]/HTML:CSS Code/Untitled-1.html",
+		"/Applications/MAMP/htdocs/thinkful/first-site/aboutme.html",
+		"/Applications/MAMP/htdocs/thinkful/first-site/mystyle.css",
+		"/Users/sjdubois2/Desktop/styles.css",
+		"/Users/sjdubois2/Desktop/old/testing"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"a",
+			"styling",
+			"bodyContent",
+			"border",
+			".rna",
+			"rna",
+			"content-wrapper",
+			"var _globaloptions",
+			"zindex",
+			"kelly",
+			"social-buttons",
+			"biotechnology",
+			"biotechnology-wrapper",
+			"biotechnology",
+			"rna-rep",
+			"chad brandon",
+			"#333",
+			"#000",
+			"000000",
+			"contact",
+			"about",
+			"progress",
+			"section-heading",
+			"light",
+			"black",
+			"text-muted",
+			"about",
+			"wimberly",
+			"jose",
+			"professional",
+			"concept-map-modules",
+			"11px",
+			"history",
+			"//player.vimeo.com",
+			"src=\"http://projects.delta.ncsu.edu/efire-dev/wp-content/uploads/2015/04/fpo-image.jpg\"",
+			"FFF",
+			"ignored-packages",
+			"icon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 1112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1895,
+								1896
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/MAMP/htdocs/bch453/concept-map.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 433.0,
+	"status_bar_visible": true
+}

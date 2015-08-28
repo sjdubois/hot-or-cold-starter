@@ -12,18 +12,13 @@ $(document).ready(function(){
   		$(".overlay").fadeOut(1000);
   	});
 
-});
 
-$(function(){
+
+
 
 	/*--- Global variables ---*/
 	var totalGuesses = [];
 	var randomNumber = getRandomInt(1, 100);
-
-
-
-	
-
 
 
 
@@ -60,7 +55,7 @@ $(function(){
 
 	});
 
-
+// testing to see if git updates this file 
 
 
 	function gameInitialize() {
@@ -84,8 +79,7 @@ $(function(){
 	}
 
 	$('.new').click(function() {
-		//alert(randomNumber);
-		//radomHolder.push(randomNumber);
+		
 		gameInitialize();
 
 	}); 
@@ -109,10 +103,10 @@ $(function(){
 	// !!!!!! What if randomNumber is below 10 or above 90? 
 
 
-
-
-
-
 });
+
+
+
+
 
 

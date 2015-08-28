@@ -51,7 +51,7 @@ ul li {
 
 /*---------------------------------------------------------------------------------
    Header Styles
---------------------------------------------------------------------------------- */
+---------------------------------------------------------------------------------*/
 
 nav {
 	position: relative;
@@ -81,9 +81,18 @@ nav a {
 h1 {
 	font-weight: 900;
 	font-size: 3em;
-	padding: 0.8em;
+	padding: 40px 0.8em 100px 0.8em;
 	color: #fff;
+	position: relative;
 
+}
+
+h1 .success {
+	display: none;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	right: 50%;
 }
 
 /*style for hidden modal*/
