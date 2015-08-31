@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"random",
+				"randomIzer"
+			],
+			[
 				"inline",
 				"inline-block"
 			]
@@ -12,18 +16,37 @@
 	"buffers":
 	[
 		{
-			"file": "js/app.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1112,
+				"buffer_size": 2071,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "js/app.js",
 			"settings":
 			{
-				"buffer_size": 2036,
+				"buffer_size": 2197,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n$(document).ready(function(){\n	\n	/*--- Display information modal box ---*/\n  	$(\".what\").click(function(){\n    	$(\".overlay\").fadeIn(1000);\n\n  	});\n\n  	/*--- Hide information modal box ---*/\n  	$(\"a.close\").click(function(){\n  		$(\".overlay\").fadeOut(1000);\n  	});\n\n\n  	var totalGuesses = [];\n  	var valid = false;\n\n	function guessCount() {\n		$(\"#count\").html('');\n		var NumberOfGuesses = totalGuesses.length;\n		$(\"#count\").append(NumberOfGuesses);\n\n	}\n	\n\n	while(!valid) {\n		$(\"form\").submit(function(e){\n		e.preventDefault();\n		guess = $(\"#userGuess\").val();\n		var  result = parsInt(guess);\n\n		console.log(result);\n\n		}\n\n\n	if(isNaN(result)) {\n		formvalid = false;\n\n		valid = false; // loop back and prompt again - need number please\n	} else {\n		\n		totalGuesses.push(result);\n		\n		$(\"#guessList\").html('');\n\n		var i;\n		for (i = 0; i < totalGuesses.length; i++) {\n			$(\"#guessList\").append('<li>' + totalGuesses[i] + '</li>');\n		}\n		\n		guessCount();\n\n	}\n\n	}\n\n\n\n\n\n\n\n	/*$(\"form\").submit(function(e){\n		e.preventDefault();\n		guess = $(\"#userGuess\").val();\n\n\n		totalGuesses.push(guess);\n		\n		$(\"#guessList\").html('');\n\n		var i;\n		for (i = 0; i < totalGuesses.length; i++) {\n			$(\"#guessList\").append('<li>' + totalGuesses[i] + '</li>');\n		}\n		\n		guessCount();\n\n		\n	});*/\n\n\n\n});\n\n//$(function(){\n\n	\n\n	\n		\n\n\n	/*function guessCounter() {\n		totalGuesses.push();\n	}*/\n\n\n\n\n\n\n\n// Random Math Function - Generates a Random Integer between 1-100\n\n	/* function getRandomInt(min, max) {\n    return Math.floor(Math.random() * (max - min + 1)) + min;\n	}\n\n\n	$('.new').click(function() {\n		var randomNumber = getRandomInt(1, 100);\n		alert(randomNumber);\n	}); */\n\n\n\n\n\n\n\n\n//});\n\n\n",
+			"file": "js/app-new.js",
+			"file_size": 1655,
+			"file_write_time": 1440527663000000,
+			"settings":
+			{
+				"buffer_size": 1659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/style.css",
+			"settings":
+			{
+				"buffer_size": 5976,
 				"line_ending": "Unix"
 			}
 		}
@@ -135,6 +158,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"success",
 			"a",
 			"styling",
 			"bodyContent",
@@ -195,44 +219,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "js/app.js",
-					"settings":
-					{
-						"buffer_size": 1112,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								451,
-								451
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2036,
+						"buffer_size": 2071,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1895,
-								1896
+								549,
+								549
 							]
 						],
 						"settings":
@@ -242,6 +240,87 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 2197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1349,
+								1349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 785.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/app-new.js",
+					"settings":
+					{
+						"buffer_size": 1659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1656,
+								1656
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "styles/style.css",
+					"settings":
+					{
+						"buffer_size": 5976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1525,
+								1532
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1018.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -309,6 +388,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 433.0,
+	"side_bar_width": 245.0,
 	"status_bar_visible": true
 }
